@@ -43,6 +43,7 @@ int main(){
     cout<<"Entered country:\t"<<country<<endl;
     cout<<"Selected gender:\t"<<gender<<endl;
 
+    
 
     
 
