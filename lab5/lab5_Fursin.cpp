@@ -81,7 +81,7 @@ int main(){
     cin>>new_word;
 
     cout<<"The 4th character is: "<<new_word.at(3)<<endl;
-    cout<<"The length of the word is: "<<new_word.length()<<endl;
+    cout<<"The length of the word is: "<<new_word.length()<<"characters."<<endl;
     new_word.replace(1,3,"-- $ --");
     cout<<"After replacement: "<<new_word<<endl;
     new_word.erase((new_word.length() - 2 ), 2 );
